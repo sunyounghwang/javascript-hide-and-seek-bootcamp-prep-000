@@ -24,17 +24,3 @@ function deepestChild() {
   }
 }
 
-function deepestChild() {
-  let node = document.getElementById('grand-node')
-  let nextNode = node.children[0]
-
-  while (nextNode) {
-    console.log(nextNode)
-    node = nextNode
-    console.log(node)
-    nextNode = node.children[0]
-    console.log(nextNode)
-  }
-
-  return node
-}
