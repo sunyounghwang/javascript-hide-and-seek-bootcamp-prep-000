@@ -29,7 +29,7 @@ function deepestChild() {
   let nextNode = node.children[0]
 
   while (nextNode) {
-    console.log(node)
+    console.log(nextNode)
     node = nextNode
     console.log(node)
     nextNode = node.children[0]
